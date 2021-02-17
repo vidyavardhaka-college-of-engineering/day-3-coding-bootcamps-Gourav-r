@@ -11,13 +11,16 @@ int main()
     int a=0 , b=1 ,i,c;
     printf("Enter the value for n\n");
     scanf("%d", &n);
+    printf("The fabonacci series of %d terms is  ",n);
 
     //Write your code here
     for(i=1;i<=n;i++)
-    {printf("%d",a);
-    c=a+b;
-    a=b;
-    b=c; }
+    {
+      printf("%d\t" ,a);
+      c=a+b;
+      a=b;
+      b=c; 
+          }
 
     return 0;
 }
